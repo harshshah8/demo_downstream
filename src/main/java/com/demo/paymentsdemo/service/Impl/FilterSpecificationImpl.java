@@ -1,4 +1,4 @@
-package com.demo.paymentsdemo.service;
+package com.demo.paymentsdemo.service.Impl;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.demo.paymentsdemo.dto.SearchRequestDto;
 import com.demo.paymentsdemo.dto.RequestDto.GlobalOperator;
+import com.demo.paymentsdemo.service.FilterSpecification;
 
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;

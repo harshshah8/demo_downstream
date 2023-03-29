@@ -1,4 +1,4 @@
-package com.demo.paymentsdemo.service;
+package com.demo.paymentsdemo.service.Impl;
 
 import java.util.List;
 
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.demo.paymentsdemo.entity.Student;
 import com.demo.paymentsdemo.repository.StudentRepository;
+import com.demo.paymentsdemo.service.StudentService;
 
 import jakarta.persistence.criteria.CriteriaBuilder;
 import jakarta.persistence.criteria.CriteriaQuery;
