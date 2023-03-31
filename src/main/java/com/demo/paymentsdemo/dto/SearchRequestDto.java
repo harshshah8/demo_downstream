@@ -17,4 +17,5 @@ public class SearchRequestDto {
         EQUAL,LIKE,IN, GREATER_THAN, LESS_THAN, BETWEEN,JOIN;
     }
     
+    
 }
